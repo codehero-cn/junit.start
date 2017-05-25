@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'cn.codehero.buildshipV2.0'
+rootProject.name = 'cn.codehero.junit'
