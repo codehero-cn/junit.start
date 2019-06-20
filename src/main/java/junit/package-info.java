@@ -5,4 +5,4 @@
  * @author eleven
  *
  */
-package javase.basic.junit;
+package junit;

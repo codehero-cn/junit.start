@@ -1,15 +1,13 @@
-package javase.basic.junit;
+package junit;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple App.框架可以用起来，理解下意思maven生成项目时自动生成测试代码  
  */
-public class AppTest 
-    extends TestCase
-{
+public class AppTest extends TestCase{
     /**
      * Create the test case
      *

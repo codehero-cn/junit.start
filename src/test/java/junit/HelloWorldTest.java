@@ -1,11 +1,9 @@
-package javase.basic.junit;
+package junit;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 /**
- * 
- * @author eleven
  * "maven实战”中的第3.4章,编写测试代码
  */
 public class HelloWorldTest

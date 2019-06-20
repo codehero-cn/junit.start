@@ -1,21 +1,24 @@
-apply plugin: 'java-library'
+apply plugin: 'java'
 
 //设置utf-8编码
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
+    testCompile 'junit:junit:4.12'
 }
 
-javadoc {
+tasks.withType(Javadoc){
     source = sourceSets.main.allJava
-    options.encoding = "UTF-8"
-    options.charSet = "UTF-8"
+    options.addStringOption('encoding','UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
     options.author = "true"
     options.showAll()
- }
+}
+task wrapper5 (type:Wrapper){
+    gradleVersion = '5.4.1'
+}

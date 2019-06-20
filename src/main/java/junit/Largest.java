@@ -1,5 +1,8 @@
-package javase.basic.junit;
+package junit;
 
+/**
+ * 首个单元测试《程序员修炼三部曲·单元测试之道Java版：使用Junit 》书2.1和2.2
+ */
 public class Largest {
 	
 	/**

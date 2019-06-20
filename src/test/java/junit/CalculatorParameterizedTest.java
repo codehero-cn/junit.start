@@ -1,10 +1,11 @@
-package cn.codehero.junit;
+package junit;
 
 import static org.junit.Assert.*;
 
 import java.util.Arrays;
 import java.util.Collection;
 
+import junit.Calculator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

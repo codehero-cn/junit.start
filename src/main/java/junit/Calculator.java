@@ -1,4 +1,4 @@
-package cn.codehero.junit;
+package junit;
 
 /**
  * 测试例子1.使用了基本测试 2.使用了参数化测试

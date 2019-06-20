@@ -1,4 +1,4 @@
-package javase.basic.junit;
+package junit;
 
 import junit.framework.TestCase;
 /**
@@ -9,13 +9,13 @@ import junit.framework.TestCase;
  * @author eleven
  *
  */
-public class TestLargest extends TestCase{
+public class LargestTest extends TestCase{
 	/**
 	 * 基类TestCase需要一个以String为参数的构造函数,因而我们必须调用super以传递这么一个名字.
 	 * 我们不知道这个名字此时是什么,因而我们就仅仅让我们自己的构造函数接受String参数传递给基类.
 	 * @param name 好象是随便定的
 	 */
-	public TestLargest(String name){
+	public LargestTest(String name){
 		super(name);
 	}
 	/**
